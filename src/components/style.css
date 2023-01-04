@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body{
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.8);
+    background-blend-mode: darken;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.content{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+a{
+    width: 100%;
+}
+
+button{
+    width: 50%;
+    border: none;
+    background: #862B25;
+    cursor: pointer;
+    color: white;
+    border-radius: 1em;
+    font-family: inherit;
+    padding: 1em;
+    font-size: 1.4em;
+}
+
+.title-text{
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.title-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.title-img img{
+    width: 100%;
+    border-radius: 50%;
+    border: .2em solid #862B25;
+}
+
+.testimonials{
+    margin-top: 6em;
+    height: 20em;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.testimony{
+    position: absolute;
+    top: 0;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: .9em;
+    animation: fade-down .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+@keyframes fade-down{
+    from{
+        opacity: 0;
+        transform: translateY(25%);
+    } to{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.next{
+    position: absolute;
+    bottom: 0;
+    font-size: 2.6em;
+}
+
+.hide{
+    display: none;
+}
+
+.blue{
+    background: blue;
+}
+
+.icon:hover{
+    color: #862B25;
+    transform: scale(1.2);
+    transition: .1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor: pointer;
+}
+
+.footer{
+    margin-top: 6em;
+    height: 10em;
+    width: 100%;
+}
+
+@media (max-width: 750px){
+    .title-img{
+        width: 80%;
+    }
+}
+
