@@ -9,7 +9,7 @@ export default function Home() {
     const [counter, setCounter] = useState(1);
 
     const handleNext = () => {
-        if(counter <= 4){
+        if(counter <= 3){
             setCounter(counter + 1)
         }
     }
@@ -54,10 +54,6 @@ export default function Home() {
                 <div className={counter == 4 ? 'testimony fade' : 'hide'}>
                     <p>I would highly recommend Success Realty. They know their stuff, and are excellent advocates for the best interest of their clients. Reid was an awesome guide through the process of buying our home. Thanks Reid!! </p>
                     <p>Stuart Hepworth</p>
-                </div>
-                <div className={counter == 5 ? 'testimony fade' : 'hide'}>
-                    <p>Reid was a pleasure to work with during my home selling Process. He was professional and always quickly responsive to my questions or concerns. He guided me Along the way and gave me updates whenever needed. I’ve worked with other realtors in the past and Reid was the best Realtor I’ve dealt with hands down from any others. Not even a comparison. I would Highly recommend Reid and his services to anyone in need of a Realtor. My biggest appreciation was his open communication throughout the process. Communication is key to success in any situation and Reid’s got it! </p>
-                    <p>Denise Cencich</p>
                 </div>
 
                 <div className="next">
