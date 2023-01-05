@@ -38,7 +38,7 @@ export default function Home() {
 
             
             <div className="testimonials">
-                <h1>Testimonials</h1>
+            <h1>Testimonials</h1>
                 <div className={counter == 1 ? "testimony fade" : 'hide'}>
                     <p>Reid is an outgoing, understanding and eager realtor. He listens to your questions and desires and will pursue the home of your dreams. I recommend him to any individual looking to buy or sell a home. By the way, he sold us the home of our dreams</p>
                     <p>Jon Heitzman</p>
@@ -59,9 +59,10 @@ export default function Home() {
                 <div className="next">
                     <FontAwesomeIcon onClick={handlePrevious} className='icon' style={{ marginInline: '1.3em' }} icon={faArrowAltCircleLeft}/>
                     <FontAwesomeIcon onClick={handleNext} className='icon' style={{ marginInline: '1.3em' }} icon={faArrowAltCircleRight}/>
-                </div>
+            </div>
                 
             </div>
+
 
             <div className="footer">
 
