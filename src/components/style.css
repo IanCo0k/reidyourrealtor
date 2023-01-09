@@ -43,6 +43,7 @@ button{
     font-family: inherit;
     padding: 1em;
     font-size: 1.4em;
+    transition: .3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 button:hover{

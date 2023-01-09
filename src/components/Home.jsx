@@ -30,7 +30,7 @@ export default function Home() {
                 <img src="https://lh3.googleusercontent.com/p/AF1QipP0AQVDl3E-9Q86-3pFTWY_ijkn-Zd8p6GWxSEz=s1360-w1360-h1020" alt="Reid Nicholson" />
             </div>
             <div className="tag-line">
-                <h2>Giving you the confident to do it yourself.</h2>
+                <h2>Giving you the confidence to do it yourself.</h2>
             </div>
             
             <a href="mailto: leads+successrealtywestmichiganmi5585-a-1205089@kvcore.com"><button>Get in touch!</button></a>
